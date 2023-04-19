@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +6,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header{
+  margin: auto;
+}
+
+main{
+  padding: 45px;
+  background-color: white;
+}
+
+main > article{
+  border-radius: 15px;
+  padding: 15px;
+  margin: 15px;
+}
+
+main > #article-tec{
+  display: flex;
+}
+
+main > #resumo{
+  background-color: white;
+}
+
+footer{
+  margin: 15px 0px 0px 0px;
 }
