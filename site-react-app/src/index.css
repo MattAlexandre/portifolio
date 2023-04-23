@@ -25,7 +25,7 @@ header{
 
 main{
   padding: 45px;
-  background-color: white;
+  background-image: linear-gradient(to top,rgb(21, 165, 255) , white , white , rgb(21, 165, 255));
 }
 
 main > article{
@@ -44,7 +44,7 @@ main > #resumo{
 main > #title{
   font: bold normal 50px 'arial';
   text-align: center;
-  color:rgb(21, 165, 255) ;
+  color:white ;
   background-color: rgb(170, 236, 247);
   transition-duration: 2.0s;
   box-shadow: 5px 5px 15px rgb(131, 178, 255);
@@ -79,7 +79,7 @@ footer{
   background:rgb(96, 194, 255) url('../public/img-fundo2.png') no-repeat center center fixed;
   background-size: cover;
   padding: 20px;
-  box-shadow: -3px -3px 25px rgb(96, 194, 255);
+  box-shadow: -3px -3px 25px white ;
 }
 
 footer > h1{
