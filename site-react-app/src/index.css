@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -16,7 +15,13 @@ code {
 
 header{
   margin: auto;
+  background: black url('../public/fundo-eu1.png') no-repeat center center fixed;
+  background-size: cover;
+  padding: 30px;
+  height: 550px;
 }
+
+
 
 main{
   padding: 45px;
@@ -36,7 +41,107 @@ main > #article-tec{
 main > #resumo{
   background-color: white;
 }
+main > #title{
+  font: bold normal 50px 'arial';
+  text-align: center;
+  color:rgb(21, 165, 255) ;
+  background-color: rgb(170, 236, 247);
+  transition-duration: 2.0s;
+  box-shadow: 5px 5px 15px rgb(131, 178, 255);
+}
+
+main > #title:hover{
+  text-shadow: 3px 3px 10px white;
+  box-shadow: 5px 5px 15px rgb(66, 138, 255);
+}
+
+main #hobbies{
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+main > #fundo{
+  background: black url('../public/img-fundo2.png') no-repeat center center fixed;
+  background-size: cover;
+  padding: 25px;
+  height: 350px;
+  box-shadow: 4px 4px 35px rgb(87, 244, 255);
+  transition-duration: 1s;
+  margin: 15px 10px;
+}
+
+main > #fundo:hover{
+  box-shadow: 4px 4px 35px rgb(0, 149, 255);
+  padding: 30px;
+}
 
 footer{
-  margin: 15px 0px 0px 0px;
+  background:rgb(96, 194, 255) url('../public/img-fundo2.png') no-repeat center center fixed;
+  background-size: cover;
+  padding: 20px;
+  box-shadow: -3px -3px 25px rgb(96, 194, 255);
+}
+
+footer > h1{
+  font: bold normal 25px 'arial';
+  text-align: center;
+  background-color: #4d94ff00;
+  padding: 15px;
+  border-radius: 15px;
+  color: white;
+}
+
+footer > p{
+  font: bold normal 25px 'arial';
+  text-align: center;
+  background-color: #ffffff00;
+  padding: 15px;
+  border-radius: 15px;
+  color: white;
+}
+
+
+footer > p > a{
+  color: white;
+  transition-duration: 1s;
+}
+
+footer > p > a:hover{
+  box-shadow: 3px 3px 15px white;
+  padding: 15px;
+  border-radius: 10px;
+  color: white  ;
+}
+
+footer > #cards{
+  display: flex;
+  padding: 20px;
+
+}
+
+footer > #buttons{
+  display: flex;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+
+#buttons > #drop{
+  margin: 15px;
+  width: 50%;
+}
+
+#buttons > #drop >button{
+  background-color: #0d6efd;
+  border: none;
+  padding: 15px;
+  font: bold normal 20px 'arial';
+  transition-duration: 0.5s;
+}
+
+#buttons > #drop >button:hover{
+  padding: 17px;
+  box-shadow: 3px 3px 15px white;
+  background-color: white;
+  color: #052c65;
 }
